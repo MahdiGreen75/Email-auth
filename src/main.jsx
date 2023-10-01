@@ -9,6 +9,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import './index.css'
+import HeroRegister from './components/HeroRegister/HeroRegister';
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
       {
         path: "/register",
         element: <Register></Register>
+      },
+      {
+        path: "/heroRegister",
+        element: <HeroRegister></HeroRegister>
       }
     ]
   },
